@@ -55,12 +55,27 @@
     float: left;
   }
   .topbar-menu {
-
-
     font-weight: bold;
     font-size: 90%;
     padding: 13px 15px;
     height: 27px;
+  }
+  #more-arrow {
+    width: 16px;
+    margin-left: 20px;
+  }
+  #search-box {
+    background-color: #e4e4e4;
+    border: none;
+    font: bold;
+    font-size:14px;
+    padding: 5px;
+    margin: 5px 0 5px 5px;
+    float: left;
+  }
+  #magnifying-glass {
+    height: 26px;
+    margin-top: 5px;
   }
 
     </style>
@@ -90,8 +105,12 @@
         </div>
         <div class="topbar-section topbar-menu">
           More
-        </div>
-
+          <img id="more-arrow" src="image/more-arrow.png">
+      </div>
+      <div class="topbar-section">
+        <input id="search-box" type="text" value="Search">
+        <input type="image" id="magnifying-glass" src="image/magnifying-glass.png">
+          <div class="clear"><div>
 
       </div>
 
