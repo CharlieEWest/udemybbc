@@ -4,14 +4,15 @@
     <meta charset="utf-8">
     <title>Webpage with style</title>
     <style type="text/css">
-     #topbar{
+     #topbar {
       width: 1000px
       margin: 0 auto;
+      padding-left: 2%;
       height: 40px;
     }
     body {
       margin: o;
-      padding: opx;
+      padding: o;
       font-family: helvetica, Arial, sans-serif;
     }
     #logo {
@@ -77,6 +78,54 @@
     height: 26px;
     margin-top: 5px;
   }
+  .clear {
+    clear: both;
+  }
+  #menu-bar-container {
+    background-color: #BB1919;
+    widows: 100%;
+    height: 70px;
+    padding-left: 30px;
+
+  }
+  #menu-bar {
+    width: 1000px
+    margin: 0 auto;
+
+  }
+  h1 {
+    padding: 0;
+    Margin: 0;
+    color: white;
+    font-size: 40px;
+    font-weight: normal;
+    padding-top: 10px;
+    float: left;
+
+  }
+  #local-news {
+    border: 1px #BB4545 solid;
+    float: right;
+    width: 180px;
+    padding: 5px 5px 0px 10px;
+    margin: 8px 10px;
+
+
+  }
+  #local-news a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    position: relative;
+    top: -3px;
+
+  }
+  #local-news a:hover {
+    text-decoration: underline;
+  }
+  #local-news img {
+    height: 40px;
+  }
 
     </style>
   </head>
@@ -110,11 +159,24 @@
       <div class="topbar-section">
         <input id="search-box" type="text" value="Search">
         <input type="image" id="magnifying-glass" src="image/magnifying-glass.png">
-          <div class="clear"><div>
+
+      </div>
+    </div>
+
+    <div class="clear"></div>
+    <div id="menu-bar-container">
+      <div id="menu-bar">
+        <h1>NEWS</h1>
+        <div id="local-news">
+          <a href="">
+          Find local news</a>
+          <img src="image/pointer.png">
+        </div>
 
       </div>
 
 
-    </div>
+  </div>
+
   </body>
 </html>
